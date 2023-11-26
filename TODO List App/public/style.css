@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: orange;
+}
+
+#list {
+    list-style-type: none;
+    padding: 0;
+}
+.box {
+    position: relative;
+    width: 450px;
+    height: 550px;
+    padding: 30px 50px;
+    border-radius: 30px;
+    background-color: rgb(231, 151, 5);
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25),
+        10px 10px 70px rgba(0, 0, 0, 0.25),
+        inset 5px 5px 10px rgba(0, 0, 0, 0.5),
+        inset 5px 5px 20px rgba(225, 255, 255, 0.2),
+        inset -5px -5px 15px rgba(0, 0, 0, 0.75)
+}
+
+.h12 {
+    width: 100%;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.75em;
+    color: black;
+    margin-bottom: 10px;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#list li {
+    margin: 15px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    min-height: 45px;
+    cursor: pointer;
+    border-radius: 22.5px;
+    color: black;
+    font-size: 1.6em;
+    font-weight: 200;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25);
+    background: orange;
+}
+
+
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.inputTitle {
+    background-color: white;
+    border: none;
+    position: relative;
+    width: 100%;
+    border: none;
+    padding: 15px 20px;
+    margin-right: 10px;
+    border: none;
+    font-size: 1.5em;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.create_list {
+    padding: auto;
+}
+
+
+.editButton{
+    background-color: rgb(255, 187, 0);
+    color: black;
+    font-size: large;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin: 0 4px;
+    border: none;
+}
+
+.editButton:hover{
+    background-color: rgb(255, 98, 0);
+}
+
+.delButton{
+    background-color: rgb(255, 51, 0);
+    color: black;
+    font-size: large;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin: 0 4px;
+    border: none;
+}
+.delButton:hover{
+background-color: rgb(255, 17, 0);
+}
+
+
+
+/* SCROLL BAR */
+/* width */
+
+  

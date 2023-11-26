@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+
+<body style="background-color: orange;">
+  <div class="box">
+    <h1 class="h12">My Todo List App</h1>
+    <div id="container" class="input-group inputField">
+      <input id="inputField" type="text" class="inputTitle" placeholder="Title">
+    </div>
+    <button onclick="addItem()" class="btn btn-outline-primary" type="button">Add Item</button>
+    <button onclick="deletAll()" class="btn btn-outline-danger" type="button">Delete All</button>
+
+    <div class="create_list" 
+    style="height: 330px;
+    overflow:scroll;
+    overflow-y:scroll;
+    overflow-x:hidden;">
+      <ul id="list" style="text-align: center;" >
+
+      </ul>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
